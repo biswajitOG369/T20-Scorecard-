@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+.topflagbanner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin-left: 50vh;
+    padding-top: 10px;
+}
+.topflagbanner img{
+   width: 250px;
+   height: 125px;
+}
+.topflagbanner img:hover{
+    width: 100px;
+}
+.topflagbanner h1{
+    background-color: orange;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50px;
+}
